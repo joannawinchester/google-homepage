@@ -1,0 +1,199 @@
+body {
+	height: 100%;
+	margin: 0px;
+	background: #fff none repeat scroll 0% 0%;
+	color: #222;
+	font-size: small;
+	font-family: arial, sans-serif;
+}
+
+/* ---- NAVIGATION ---- */
+
+div.navbar {
+	position: fixed;
+	margin: 0 25px;
+	top: 0;
+	right: 0;
+}
+
+.navbar ul li {
+	display: inline;
+	float: left;
+	padding-left: 15px;
+
+}
+
+.nav-text {
+	padding-top: 8px;
+}
+.nav-text a {
+	text-decoration: none;
+	color: #555;
+	transition: all 0.1s ease-in;
+	-moz-transition: all 0.1s ease-in;
+	-webkit-transition: all 0.1s ease-in;
+}
+.nav-text a:hover {
+	text-decoration: underline;
+}
+.nav-text-1 {
+	color: #999;
+}
+
+span.google-apps,
+span.google-notifications,
+span.google-user {
+	display: inline-block;
+}
+
+span.google-apps,
+span.google-notifications {
+	height: 30px; width: 30px;
+	opacity: 0.55;
+	transition: opacity: 0.1s ease-in;
+	-moz-transition: opacity: 0.1s ease-in;
+	-webkit-transition: opacity: 0.1s ease-in;
+}
+span.google-apps:hover,
+span.google-notifications:hover {
+	opacity: 0.85;
+}
+
+span.google-apps {
+	background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+	background-position: -132px -38px;
+}
+
+span.google-notifications {
+	vertical-align: middle;
+	background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+	background-position: -194px -21px
+	background-color: rgba(0, 0, 0, 0.55);
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: center;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+}
+
+.google-user {
+	height: 32px;
+	width: 32px;
+	background-image: url("https://lh6.googleusercontent.com/-wwUSTXqjTQY/AAAAAAAAAAI/AAAAAAAAAAA/VNzqir5_TlE/s32-c-mo/photo.jpg");
+	background-size: 32px 32px;
+	border-radius: 50%;
+}
+
+
+
+/* ---- LOGO & SEARCH SECTION ---- */
+
+#main-logo-div {
+	height: 233px;
+	margin-top: 90px;
+	text-align: center;
+}
+
+#main-logo {
+	padding-top: 110px;
+}
+
+#searchform-div {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+#search-input {
+	position: relative;
+	width: 484px; height: 36px;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 26px;
+	color: #222;
+	border: 1px solid #ddd;
+	transition: all 0.1s ease-in;
+	-moz-transition: all 0.1s ease-in;
+	-webkit-transition: all 0.1s ease-in;
+}
+#search-input:hover {
+	border: 1px solid #aaa;
+}
+#search-input:focus {
+	border: 1px solid #4285F4;
+}
+
+div#search-buttons {
+	padding-top: 18px;
+}
+
+.input-btn {
+	height: 36px;
+	line-height: 27px;
+	background-color: #F2F2F2;
+	border: 1px solid #F2F2F2;
+	border-radius: 2px;
+	color:#757575;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 4px;
+	padding: 0px 16px;
+	text-align: center;
+	transition: all 0.1s ease-in;
+	-moz-transition: all 0.1s ease-in;
+	-webkit-transition: all 0.1s ease-in;
+}
+.input-btn:hover {
+	border: 1px solid #C6C6C6;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+	color: #222;
+}
+
+
+
+/* ---- FOOTER ---- */
+
+div.footer {
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	background-color: #F2F2F2;
+	border-top: 1px solid #E2E2E2;
+}
+
+div.left-footer {
+	float: left;
+	margin-left: 20px;
+}
+
+div.right-footer {
+	float: right;
+	margin-right: 20px;
+}
+
+.left-footer li,
+.right-footer li {
+	display: inline;
+	padding: 15px;
+}
+
+ul.left-footer {
+	padding-left: 0px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #757575;
+	transition: all 0.1s ease-in;
+	-moz-transition: all 0.1s ease-in;
+	-webkit-transition: all 0.1s ease-in;
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
+
